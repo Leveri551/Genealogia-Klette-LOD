@@ -1,4 +1,4 @@
-# Progetto di analisi e pubblicazione in LOD del dataset genealogico delle famiglie Klette
+# Progetto di analisi e pubblicazione in LOD del dataset genealogico della famiglia Klette
 
 ## 1. Introduzione
 Questo progetto nasce dalla volontà di ricostruire e documentare la storia genealogica delle famiglie Klette tra la fine del XIX e l'inizio del XX secolo, focalizzandosi sul contesto geografico di Gorizia e Trieste.
