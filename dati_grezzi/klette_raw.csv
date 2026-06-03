@@ -1,0 +1,7 @@
+﻿ID_Univoco;Nome;Cognome;Data_Nascita;Luogo_Nascita;Data_Morte;Professione;Padre;Madre
+klette_01;Karl;Klette;1875;Gorizia;1956;Dottore in Economia;klette_02;jellersig_01
+klette_02;Franz Leopold Zeno;Klette;1844;Ignoto;Ignoto;i.r. Amministratore doganale;Ignoto;Ignoto
+jellersig_01;Francesca Gioseffa;Jellersig;1846;Gorizia;Ignoto;Ignoto;Ignoto;Ignoto
+klette_03;Stefania;Klette;1883;Lubiana;1966;Suora;klette_02;jellersig_01
+klette_04;Maria ;Klette;1881;Lubiana;1962;Suora;klette_02;jellersig_01
+klette_05;Leopolda;Klette;1873;Gorizia;Ignoto;Ignoto;klette_02;jellersig_01
