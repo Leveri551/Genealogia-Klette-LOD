@@ -1,0 +1,85 @@
+flowchart TB
+    B3["Giovanni Mauro Bullo<br>Patrizio di Chioggia"] --- U2(("⚭"))
+    B4["Caterina Morosini<br>Patrizia Veneziana"] --- U2
+    U2 --> G1_F["Livia Maria Contessa Bullo<br>Contessa<br>*1812 - †1859"]
+    B1["Leopold Klette"] --- U1(("⚭"))
+    B2["Anna von Ritter"] --- U1
+    U1 --> G1_M["Dr. Leopold Franz Vinzenz Klette<br>Consigliere dei Conti Imperiale<br>*1803 - †1881"]
+    G1_F --- U3(("⚭ 1° Matrimonio"))
+    G1_M --- U3 & U5(("⚭ 2° Matrimonio"))
+    U3 --> P["Franz Leopold Zeno Klette<br>i.r. Amministratore doganale<br>*1844"]
+    B5["Joseph Koschutta"] --- U4(("⚭"))
+    B6["Josephine Glergh"] --- U4
+    U4 --> M_Kos["Marianna Koschutta"]
+    M_Kos --- U5
+    U5 --> Z1["Anna Maria Klette<br>Madre Anna Maria - Orsolina<br>*1862 - †1909"] & Z2["Carolina Maria Virginia<br>Suor Maria Antonia - Orsolina<br>*1863 - †1885"]
+    B7["Giuseppe Jellersig"] --- U8(("⚭"))
+    B8["Maria"] --- U8
+    U8 --> G2_M2["Giuseppe Jellersig (Ielersig)<br>Facchino a Trieste<br>*1800 Gorizia"] & G1_M2["Francesco Jellersig<br>Maestro Orefice<br>*1813 Gorizia"]
+    G2_M2 --- U10(("⚭"))
+    M_Ignota["Maria"] --- U10
+    U10 --> C1["Carolina Jellersig<br>*1836 Gorizia<br>(Residente a Trieste)"]
+    B9["Vincenzo Simpli"] --- U9(("⚭"))
+    B10["Anna"] --- U9
+    U9 --> G1_F3["Francesca Simpli<br>*1819 Cormons"]
+    G1_M2 --- U6(("⚭"))
+    G1_F3 --- U6
+    U6 --> ZM1["Teresia Jellersig<br>*1842"] & ZM2["Anna Jellersig<br>*1843"] & Madre["Francesca Gioseffa Jellersig<br>*01/06/1846 Gorizia"] & ZM3["Antonio Jellersig<br>*1848"] & ZM4["Francesco Jellersig<br>*1850"] & ZM5["Enrica Jellersig<br>*1853"]
+    P --- U7(("⚭ Matrimonio Genitori"))
+    Madre --- U7
+    U7 --> K1["Leopoda Klette<br>*1873"] & K2["<b>Karl Klette</b><br>Dottore in Economia<br>*1875 - †1956"] & K8["Maria Klette <br>Suor Maria Stanislas di M. Addolorata<br>*1881 - †1962"] & K3["Stefania Klette<br>Suor Lodovica - Dominicana<br>*1883 - †1966"] & K4["Antonio Klette<br>†1896"] & K5["Gioseffa Klette<br>†1920"] & K6["Amalia Klette<br>†1924"] & K7["Francesco Klette"]
+
+     B3:::ramoPaterno
+     U2:::nozze
+     B4:::ramoPaterno
+     G1_F:::ramoPaterno
+     B1:::ramoPaterno
+     U1:::nozze
+     B2:::ramoPaterno
+     G1_M:::ramoPaterno
+     U3:::nozze
+     U5:::nozze
+     P:::genitori
+     B5:::ramoKoschutta
+     U4:::nozze
+     B6:::ramoKoschutta
+     M_Kos:::ramoKoschutta
+     Z1:::orsolina
+     Z2:::orsolina
+     B7:::ramoMaterno
+     U8:::nozze
+     B8:::ramoMaterno
+     G2_M2:::ramoMaterno
+     G1_M2:::ramoMaterno
+     U10:::nozze
+     M_Ignota:::ramoMaterno
+     C1:::ramoMaterno
+     B9:::ramoMaterno
+     U9:::nozze
+     B10:::ramoMaterno
+     G1_F3:::ramoMaterno
+     U6:::nozze
+     ZM1:::ramoMaterno
+     ZM2:::ramoMaterno
+     Madre:::genitori
+     ZM3:::ramoMaterno
+     ZM4:::ramoMaterno
+     ZM5:::ramoMaterno
+     U7:::nozze
+     K1:::figli
+     K2:::karl
+     K8:::orsolina
+     K3:::dominicana
+     K4:::figli
+     K5:::figli
+     K6:::figli
+     K7:::figli
+    classDef ramoPaterno fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    classDef ramoMaterno fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+    classDef ramoKoschutta fill:#f5f5f5,stroke:#9e9e9e,stroke-width:2px
+    classDef genitori fill:#c8e6c9,stroke:#388e3c,stroke-width:3px
+    classDef figli fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px
+    classDef karl fill:#ab47bc,stroke:#4a148c,stroke-width:4px,color:#fff
+    classDef orsolina fill:#fff,stroke:#ff9800,stroke-width:4px
+    classDef dominicana fill:#fff,stroke:#4a148c,stroke-width:4px
+    classDef nozze fill:#fff,stroke:#e53935,stroke-width:2px,color:#d32f2f
