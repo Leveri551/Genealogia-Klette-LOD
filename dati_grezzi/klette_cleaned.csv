@@ -1,1 +1,7 @@
-
+dcterms:identifier;foaf:givenname;foaf:family_name;crm:E67_Birth;schema:birthPlace;crm:E69_Death;schema:jobTitle;bio:father;bio:mother
+klette_01;Karl;Klette;1875;tgn:7005526;1956;aat:300025591;klette_02;jellersig_01
+klette_02;Franz Leopold Zeno;Klette;1844;tgn:7005539;;i.r. Amministratore doganale;;
+jellersig_01;Francesca Gioseffa;Jellersig;1846;tgn:7005526 ;;;;
+klette_03;Stefania;Klette;1883;tgn:7012986;1966;aat:300025770;klette_02;jellersig_01
+klette_04;Maria ;Klette;1881;tgn:7012986;1962;aat:300025770;klette_02;jellersig_01
+klette_05;Leopolda;Klette;1873;tgn:7005526;;;klette_02;jellersig_01
