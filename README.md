@@ -25,7 +25,7 @@ Le lacune informative (es. la dicitura "Ignoto") sono state gestite lasciando le
   * Per le cariche storiche specifiche (es. *"i.r. Amministratore doganale"*), si è scelto di preservare il letterale storico in formato *Literal*.
 
 ## 4. Struttura del repository
-* `/dati_grezzi`: Contiene i file CSV `klette_cleaned.csv` e  `klette_raw.csv`.
+* `/dati_grezzi`: Contiene il file dell'albero (`klette.mmd` in Mermaid), il dataset CSV di partenza (`klette_raw.csv`) e il file pulito (`klette_cleaned.csv`).
 * `/dati_rdf`: Contiene il file definitivo `klette.ttl`.
 
 ---
