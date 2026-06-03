@@ -18,7 +18,7 @@ Il processo è stato sviluppato nei seguenti step:
   * **Biographical Information Ontology (`bio:`)**: Sfruttato per espresso le relazioni di parentela dirette (`bio:father` e `bio:mother`).
 * **Risoluzione delle criticità tecniche (OpenRefine):**
 
-Le lacune informative (es. la dicitura "Ignoto") sono state gestite lasciando le celle vuote nel dataset. In questo modo, l'estensione RDF di OpenRefine ha evitato la generazione di triple o nodi errati.
+Le diciture `ignoto` non derivano da una reale mancanza di dati storici ma da una scelta di semplificazione del lavoro. Per evitare triple ridondanti si è scelto di non mapparli, lasciando le celle vuote.
  
   * I luoghi di nascita sono stati convertiti in URI univoci e globali interfacciandosi con il **Getty Thesaurus of Geographic Names (TGN)** (es. `tgn:7005526` per Gorizia).
   * Le professioni sono state ancorate al **Getty Art & Architecture Thesaurus (AAT)** (es. `aat:300025591` per economista, `aat:300025770` per suora).
