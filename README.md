@@ -2,6 +2,7 @@
 
 ## 1. Introduzione
 Questo progetto nasce dalla volontà di ricostruire e documentare la storia genealogica della famiglia Klette tra la fine del XIX e l'inizio del XX secolo, focalizzandosi sul contesto geografico di Gorizia e Trieste.
+Il dataset non include la totalità dei soggetti appartenenti all'albero genealogico complessivo, ma si concentra su una selezione mirata del nucleo familiare principale. Ho scelto, quindi, la rete familiare ristretta di **Karl Klette** (1875–1956).
 
 ## 2. Obbiettivi
 L'obbiettivo è sperimentare il ciclo di vita del dato nel web semantico, partendo da informazioni genealogiche non strutturate, come un albero genealogico, e arrivando alla loro rappresentazione tramite Linked Open Data (LOD).
