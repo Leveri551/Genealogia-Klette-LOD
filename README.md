@@ -28,5 +28,16 @@ Le diciture `ignoto` non derivano da una reale mancanza di dati storici ma da un
 * `/dati_grezzi`: Contiene il file dell'albero (`klette.mmd` in Mermaid), il dataset CSV di partenza (`klette_raw.csv`) e il file pulito (`klette_cleaned.csv`).
 * `/dati_rdf`: Contiene il file definitivo `klette.ttl`.
 
+
+## 5. Metadatazione del Dataset (In ottica Principi FAIR)
+
+Per garantire la conformità ai principi FAIR, il dataset è stato corredato da metadati descrittivi strutturati:
+
+* **Titolo del Dataset:** Dataset Genealogico Famiglia Klette (LOD)
+* **Creatore:** Giovanni Costanzo
+* **Istituzione Affiliata:** Università degli Studi di Torino
+* **Data di Creazione:** Giugno 2026
+* **Ontologie/vocabolari di Riferimento:** CIDOC-CRM, FOAF, Schema.org, BIO Ontology, Getty Thesaurus of Geographic Names (TGN), Art & Architecture Thesaurus (AAT)
+
 ---
 *Progetto per l'esame di "Gestione del Dato per il Patrimonio Culturale", Università di Torino.*
