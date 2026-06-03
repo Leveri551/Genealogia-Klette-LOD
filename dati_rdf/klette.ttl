@@ -1,1 +1,42 @@
-
+@prefix schema: <http://schema.org/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+<http://progetto.dato.unito.it/resource/klette_01> a crm:E21_Person;
+foaf:givenName "Karl";
+foaf:familyName "Klette";
+schema:jobTitle aat:300025591;
+bio:father <http://progetto.dato.unito.it/resource/klette_02>;
+bio:mother <http://progetto.dato.unito.it/resource/jellersig_01>;
+schema:birthPlace tgn:7005526 .
+<http://progetto.dato.unito.it/resource/klette_02> a crm:E21_Person;
+foaf:givenName "Franz Leopold Zeno";
+foaf:familyName "Klette";
+schema:jobTitle "i.r. Amministratore doganale"@it;
+schema:birthPlace tgn:7005539 .
+<http://progetto.dato.unito.it/resource/jellersig_01> a crm:E21_Person;
+foaf:givenName "Francesca Gioseffa";
+foaf:familyName "Jellersig";
+schema:birthPlace tgn:7005526 .
+<http://progetto.dato.unito.it/resource/klette_03> a crm:E21_Person;
+foaf:givenName "Stefania";
+foaf:familyName "Klette";
+schema:jobTitle aat:300025770;
+bio:father <http://progetto.dato.unito.it/resource/klette_02>;
+bio:mother <http://progetto.dato.unito.it/resource/jellersig_01>;
+schema:birthPlace tgn:7012986 .
+<http://progetto.dato.unito.it/resource/klette_04> a crm:E21_Person;
+foaf:givenName "Maria";
+foaf:familyName "Klette";
+schema:jobTitle aat:300025770;
+bio:father <http://progetto.dato.unito.it/resource/klette_02>;
+bio:mother <http://progetto.dato.unito.it/resource/jellersig_01>;
+schema:birthPlace tgn:7012986 .
+<http://progetto.dato.unito.it/resource/klette_05> a crm:E21_Person;
+foaf:givenName "Leopolda";
+foaf:familyName "Klette";
+bio:father <http://progetto.dato.unito.it/resource/klette_02>;
+bio:mother <http://progetto.dato.unito.it/resource/jellersig_01>;
+schema:birthPlace tgn:7005526 .
