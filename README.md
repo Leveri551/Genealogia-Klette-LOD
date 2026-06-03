@@ -35,7 +35,7 @@ Per garantire la conformità ai principi FAIR, il dataset è stato corredato da 
 
 * **Titolo del Dataset:** Dataset Genealogico Famiglia Klette (LOD)
 * **Creatore:** Giovanni Costanzo
-* **Istituzione Affiliata:** Università degli Studi di Torino
+* **Istituzione:** Università degli Studi di Torino
 * **Data di Creazione:** Giugno 2026
 * **Ontologie/vocabolari di Riferimento:** CIDOC-CRM, FOAF, Schema.org, BIO Ontology, Getty Thesaurus of Geographic Names (TGN), Art & Architecture Thesaurus (AAT)
 
