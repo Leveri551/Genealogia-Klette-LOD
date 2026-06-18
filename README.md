@@ -16,13 +16,14 @@ Il processo è stato sviluppato nei seguenti step:
   * **FOAF (`foaf:`)**: Applicato per la corretta gestione dei dati onomastici (`foaf:givenName` e `foaf:familyName`).
   * **Schema.org (`schema:`)**: Utilizzato per la georeferenziazione dei luoghi (`schema:birthPlace`) e la designazione delle professioni (`schema:jobTitle`).
   * **Biographical Information Ontology (`bio:`)**: Sfruttato per espresso le relazioni di parentela dirette (`bio:father` e `bio:mother`).
-* **Risoluzione delle criticità tecniche (OpenRefine):**
-
-Le diciture `ignoto` non derivano da una reale mancanza di dati storici ma da una scelta di semplificazione del lavoro. Per evitare triple ridondanti si è scelto di non mapparli, lasciando le celle vuote.
  
   * I luoghi di nascita sono stati convertiti in URI univoci e globali interfacciandosi con il **Getty Thesaurus of Geographic Names (TGN)** (es. `tgn:7005526` per Gorizia).
   * Le professioni sono state ancorate al **Getty Art & Architecture Thesaurus (AAT)** (es. `aat:300025591` per economista, `aat:300025770` per suora).
   * Per le cariche storiche specifiche (es. *"i.r. Amministratore doganale"*), si è scelto di preservare il letterale storico in formato *Literal*.
+ 
+ * **Risoluzione delle criticità tecniche (OpenRefine):**
+
+Le diciture `ignoto` non derivano da una reale mancanza di dati storici ma da una scelta di semplificazione del lavoro. Per evitare triple ridondanti si è scelto di non mapparli, lasciando le celle vuote.
 
 ## 4. Struttura del repository
 * `/dati_grezzi`: Contiene il file dell'albero (`klette.mmd` in Mermaid), il dataset CSV di partenza (`klette_raw.csv`) e il file pulito (`klette_cleaned.csv`).
